@@ -25,6 +25,8 @@
 		551EFF8127DFF1FB000783BD /* CakeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EFF7F27DFF1FB000783BD /* CakeListView.swift */; };
 		551EFF8527E0A47A000783BD /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EFF8427E0A47A000783BD /* DataController.swift */; };
 		551EFF8627E0A47A000783BD /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EFF8427E0A47A000783BD /* DataController.swift */; };
+		551EFF8827E0FA45000783BD /* CakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EFF8727E0FA45000783BD /* CakeDetailView.swift */; };
+		551EFF8927E0FA45000783BD /* CakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EFF8727E0FA45000783BD /* CakeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 		551EFF7C27DFED51000783BD /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
 		551EFF7F27DFF1FB000783BD /* CakeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeListView.swift; sourceTree = "<group>"; };
 		551EFF8427E0A47A000783BD /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		551EFF8727E0FA45000783BD /* CakeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,7 @@
 				551EFF3E27DFECCE000783BD /* ContentView.swift */,
 				551EFF7927DFED24000783BD /* CakeRowView.swift */,
 				551EFF7F27DFF1FB000783BD /* CakeListView.swift */,
+				551EFF8727E0FA45000783BD /* CakeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +339,7 @@
 				551EFF8527E0A47A000783BD /* DataController.swift in Sources */,
 				551EFF7D27DFED51000783BD /* Cake.swift in Sources */,
 				551EFF8027DFF1FB000783BD /* CakeListView.swift in Sources */,
+				551EFF8827E0FA45000783BD /* CakeDetailView.swift in Sources */,
 				551EFF6527DFECCF000783BD /* Cake_ListApp.swift in Sources */,
 				551EFF7A27DFED24000783BD /* CakeRowView.swift in Sources */,
 			);
@@ -348,6 +353,7 @@
 				551EFF8627E0A47A000783BD /* DataController.swift in Sources */,
 				551EFF7E27DFED51000783BD /* Cake.swift in Sources */,
 				551EFF8127DFF1FB000783BD /* CakeListView.swift in Sources */,
+				551EFF8927E0FA45000783BD /* CakeDetailView.swift in Sources */,
 				551EFF6627DFECCF000783BD /* Cake_ListApp.swift in Sources */,
 				551EFF7B27DFED24000783BD /* CakeRowView.swift in Sources */,
 			);

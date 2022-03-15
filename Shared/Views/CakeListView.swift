@@ -15,7 +15,10 @@ struct CakeListView: View {
         ScrollView {
             LazyVStack{
                 ForEach(cakes) { cake in
-                    CakeRowView(cake: cake)
+                    NavigationLink(destination: CakeDetailView(cake: cake)){
+                        CakeRowView(cake: cake)
+                    }
+                    .buttonStyle(.plain)
                 }
             }.padding()
         }

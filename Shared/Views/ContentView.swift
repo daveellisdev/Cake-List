@@ -13,11 +13,12 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-//            CakeListView(cakes: [cake1, cake2, cake3])
+//            CakeListView(cakes: [cake1, cake2, cake3]) // Placeholder data for testing
             CakeListView(cakes: data.cakes)
 
                 .navigationTitle("Cakes")
                 .onAppear(){
+                    
                     // load cakes first, in case of no connection
                     data.loadCakes()
                     

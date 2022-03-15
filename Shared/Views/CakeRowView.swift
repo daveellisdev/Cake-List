@@ -13,9 +13,6 @@ struct CakeRowView: View {
     
     var body: some View {
         HStack {
-//            RoundedRectangle(cornerRadius: 10)
-//                .fill(Color.blue)
-//                .frame(width: 70)
             AsyncImage(url: URL(string: cake.image)) { phase in
                 if let image = phase.image {
                     image.resizable()
